@@ -1,0 +1,24 @@
+{
+  "model": "relief_product",
+  "display_name": "LogReg - Product only",
+  "task": "relief",
+  "features": "One-hot Product (11)",
+  "best_params": {
+    "C": 0.1
+  },
+  "cv_pr_auc": 0.1680063130719803,
+  "score_type": "probability",
+  "test_roc_auc": 0.8189961355878291,
+  "test_pr_auc": 0.15965156654891127,
+  "prevalence": 0.05638277988910348,
+  "train_prevalence": 0.057560451704788664,
+  "threshold": 0.7838908985238381,
+  "oof_f1": 0.2750383519614289,
+  "test_precision": 0.17761313576291549,
+  "test_recall": 0.4900552486187845,
+  "test_f1": 0.26072898295120517,
+  "test_flagged_rate": 0.15556663136253193,
+  "train_seconds": 0.12,
+  "n_train": 128491,
+  "n_test": 32102
+}

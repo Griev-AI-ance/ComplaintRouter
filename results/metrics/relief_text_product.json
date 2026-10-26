@@ -1,0 +1,24 @@
+{
+  "model": "relief_text_product",
+  "display_name": "LogReg - Text + Product",
+  "task": "relief",
+  "features": "TF-IDF 1-2 grams (100k) + one-hot Product",
+  "best_params": {
+    "C": 0.5
+  },
+  "cv_pr_auc": 0.38649918586432136,
+  "score_type": "probability",
+  "test_roc_auc": 0.9038171010269836,
+  "test_pr_auc": 0.3652106848412641,
+  "prevalence": 0.05638277988910348,
+  "train_prevalence": 0.057560451704788664,
+  "threshold": 0.7432957533347351,
+  "oof_f1": 0.4345444382336501,
+  "test_precision": 0.34458968772694265,
+  "test_recall": 0.5243093922651934,
+  "test_f1": 0.41586327782646804,
+  "test_flagged_rate": 0.08578904741137623,
+  "train_seconds": 4.5,
+  "n_train": 128491,
+  "n_test": 32102
+}

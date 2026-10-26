@@ -1,0 +1,85 @@
+{
+  "model": "logistic_regression",
+  "display_name": "Logistic Regression",
+  "task": "product",
+  "features": "TF-IDF 1-2 grams (100k)",
+  "best_params": {
+    "C": 4.0,
+    "class_weight": null
+  },
+  "cv_macro_f1": 0.7708190866523017,
+  "test_accuracy": 0.7978153846153846,
+  "test_macro_f1": 0.7760295347673405,
+  "test_weighted_f1": 0.7954747245825767,
+  "per_class": {
+    "Checking or savings account": {
+      "precision": 0.743983497593399,
+      "recall": 0.8115,
+      "f1": 0.7762764558172904,
+      "support": 4000
+    },
+    "Credit card": {
+      "precision": 0.7810521188504628,
+      "recall": 0.80175,
+      "f1": 0.7912657290895633,
+      "support": 4000
+    },
+    "Credit reporting or other personal consumer reports": {
+      "precision": 0.8027962716378162,
+      "recall": 0.8612857142857143,
+      "f1": 0.831013094417643,
+      "support": 7000
+    },
+    "Debt collection": {
+      "precision": 0.757421875,
+      "recall": 0.7756,
+      "f1": 0.766403162055336,
+      "support": 5000
+    },
+    "Debt or credit management": {
+      "precision": 0.7212806026365348,
+      "recall": 0.383,
+      "f1": 0.5003265839320705,
+      "support": 1000
+    },
+    "Money transfer, virtual currency, or money service": {
+      "precision": 0.7950016886187099,
+      "recall": 0.7846666666666666,
+      "f1": 0.789800369065593,
+      "support": 3000
+    },
+    "Mortgage": {
+      "precision": 0.9173387096774194,
+      "recall": 0.91,
+      "f1": 0.9136546184738956,
+      "support": 2000
+    },
+    "Payday loan, title loan, personal loan, or advance loan": {
+      "precision": 0.7056245434623813,
+      "recall": 0.644,
+      "f1": 0.6734053677239457,
+      "support": 1500
+    },
+    "Prepaid card": {
+      "precision": 0.8612862547288777,
+      "recall": 0.683,
+      "f1": 0.7618516452872282,
+      "support": 1000
+    },
+    "Student loan": {
+      "precision": 0.9307086614173228,
+      "recall": 0.8865,
+      "f1": 0.9080665813060179,
+      "support": 2000
+    },
+    "Vehicle loan or lease": {
+      "precision": 0.8557588805166846,
+      "recall": 0.795,
+      "f1": 0.8242612752721618,
+      "support": 2000
+    }
+  },
+  "train_seconds": 62.09391188621521,
+  "n_train": 130000,
+  "n_test": 32500
+}
