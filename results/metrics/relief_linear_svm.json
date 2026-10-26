@@ -1,0 +1,24 @@
+{
+  "model": "relief_linear_svm",
+  "display_name": "LinearSVC - Text + Product + Company",
+  "task": "relief",
+  "features": "TF-IDF 1-2 grams (100k) + one-hot Product + one-hot Company (top 50 + Other)",
+  "best_params": {
+    "C": 0.02
+  },
+  "cv_pr_auc": 0.4079670229650532,
+  "score_type": "decision_function",
+  "test_roc_auc": 0.9138297732639874,
+  "test_pr_auc": 0.3871646627303967,
+  "prevalence": 0.05638277988910348,
+  "train_prevalence": 0.057560451704788664,
+  "threshold": 0.44610723615659387,
+  "oof_f1": 0.4484920549129824,
+  "test_precision": 0.35562632696390656,
+  "test_recall": 0.5552486187845304,
+  "test_f1": 0.43356341673856774,
+  "test_flagged_rate": 0.08803189832409196,
+  "train_seconds": 8.52,
+  "n_train": 128491,
+  "n_test": 32102
+}

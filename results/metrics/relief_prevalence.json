@@ -1,0 +1,22 @@
+{
+  "model": "relief_prevalence",
+  "display_name": "Prevalence baseline (Dummy)",
+  "task": "relief",
+  "features": "none (class prior)",
+  "best_params": {},
+  "cv_pr_auc": 0.05756045159062321,
+  "score_type": "probability",
+  "test_roc_auc": 0.5,
+  "test_pr_auc": 0.05638277988910348,
+  "prevalence": 0.05638277988910348,
+  "train_prevalence": 0.057560451704788664,
+  "threshold": 0.057560451704788664,
+  "oof_f1": 0.10885515170693297,
+  "test_precision": 0.05638277988910348,
+  "test_recall": 1.0,
+  "test_f1": 0.10674687426279783,
+  "test_flagged_rate": 1.0,
+  "train_seconds": 0.0,
+  "n_train": 128491,
+  "n_test": 32102
+}
