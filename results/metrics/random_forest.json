@@ -2,7 +2,7 @@
   "model": "random_forest",
   "display_name": "Random Forest",
   "task": "product",
-  "features": "TF-IDF → SVD-300",
+  "features": "TF-IDF \u2192 SVD-300",
   "best_params": {
     "max_depth": 30,
     "min_samples_leaf": 3
@@ -79,10 +79,9 @@
       "support": 2000
     }
   },
-  "train_seconds": 3913.7415444999933,
+  "train_seconds": 353.9790376999881,
   "n_train": 130000,
   "n_test": 32500,
   "cv_n_samples": 30000,
-  "predict_seconds": 0.8193334999959916,
-  "train_seconds_note": "Inflated: the laptop entered standby during the final fit; about 40 CPU-minutes of actual compute (~10-12 min on 4 cores)."
+  "predict_seconds": 0.8319950000150129
 }

@@ -54,6 +54,21 @@ Every modeling notebook is self-contained: it reads the processed CSV, uses the 
 column, tunes hyperparameters with 3-fold stratified cross-validation on the training set only,
 and writes its test metrics to `results/metrics/<model>.json` and figures to `figures/`.
 
+### Running in VS Code or Jupyter
+
+- **Shut down a notebook's kernel before moving on to the next one.** Each open notebook keeps its
+  own Python kernel, and after running, notebooks 01–03 each hold 2–3 GB of memory. With several
+  finished kernels still open, a later notebook (for example 04) can appear stuck on its first cell
+  while Windows swaps memory to disk. In VS Code, close the notebook tab or use *Restart* /
+  *Shut Down Kernel*. Do not restart a kernel twice in a row; wait for it to come back.
+- **Keep the laptop awake and plugged in for long runs.** Standby suspends the kernel mid-run.
+- Measured run times for a full run of every notebook (16-thread laptop, 3–5 GB of free RAM,
+  two notebooks at a time): 00 38 s · 01 10 min · 02 1.5 min · Naive Bayes 2 min · Logistic
+  Regression 13 min · Linear SVM 4.5 min · kNN 1.5 min (builds the shared SVD cache) · MLP 1.5 min ·
+  Gradient Boosting 5–35 min (slow when sharing the CPU) · relief 2.5 min · Random Forest 11 min ·
+  03 11 min · 04 41 s · model comparison 19 s. Re-running reproduces every metric exactly
+  (`random_state=42` throughout).
+
 ## Demo
 
 After running the logistic regression and monetary relief notebooks:

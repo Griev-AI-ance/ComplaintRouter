@@ -18,7 +18,7 @@
   "test_recall": 0.5906077348066299,
   "test_f1": 0.43279352226720647,
   "test_flagged_rate": 0.09750171328889166,
-  "train_seconds": 3.33,
+  "train_seconds": 4.75,
   "n_train": 128491,
   "n_test": 32102
 }

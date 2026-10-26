@@ -79,9 +79,9 @@
       "support": 2000
     }
   },
-  "train_seconds": 0.11755050008650869,
+  "train_seconds": 0.22621339990291744,
   "n_train": 130000,
   "n_test": 32500,
   "cv_n_samples": 30000,
-  "predict_seconds": 13.921045800088905
+  "predict_seconds": 22.345031299977563
 }
