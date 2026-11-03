@@ -1,5 +1,12 @@
-pandas
-numpy
-scikit-learn
-matplotlib
+pandas>=2.3
+numpy>=2.3
+scipy>=1.16
+scikit-learn>=1.7
+matplotlib>=3.10
 jupyter
+nbconvert>=7.16
+requests>=2.32
+tqdm>=4.67
+joblib>=1.5
+streamlit>=1.50
+altair>=5

@@ -1,0 +1,24 @@
+{
+  "model": "relief_text_product_company",
+  "display_name": "LogReg - Text + Product + Company",
+  "task": "relief",
+  "features": "TF-IDF 1-2 grams (100k) + one-hot Product + one-hot Company (top 50 + Other)",
+  "best_params": {
+    "C": 0.5
+  },
+  "cv_pr_auc": 0.4139953305573611,
+  "score_type": "probability",
+  "test_roc_auc": 0.9148174344301104,
+  "test_pr_auc": 0.3930703278679516,
+  "prevalence": 0.05638277988910348,
+  "train_prevalence": 0.057560451704788664,
+  "threshold": 0.7208362886587565,
+  "oof_f1": 0.45185260586319215,
+  "test_precision": 0.34153354632587857,
+  "test_recall": 0.5906077348066299,
+  "test_f1": 0.43279352226720647,
+  "test_flagged_rate": 0.09750171328889166,
+  "train_seconds": 4.75,
+  "n_train": 128491,
+  "n_test": 32102
+}

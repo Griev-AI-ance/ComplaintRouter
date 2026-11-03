@@ -226,3 +226,9 @@ data/processed/*
 # Keep directories in Git
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Trained models (regenerate by running the notebooks)
+/models/
+
+# Local tooling
+/.claude/
