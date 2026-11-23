@@ -35,9 +35,14 @@ post-test.)
       (page limit, required sections, e.g. a team-contribution statement or an appendix). The
       draft is 5.6 pages (the proposal promised 5–7) and already has an ethics paragraph and a
       link to the code.
-- [ ] Edit the report together: upload [final_report_overleaf.zip](final_report_overleaf.zip) to
-      Overleaf (New Project → Upload Project) and share the project with your teammates. Overleaf
-      works in the browser, lets all three of you edit at once, and rebuilds the PDF for you.
+- [ ] Edit the report together, choosing **one** of the two copies (edits to one don't carry over
+      to the other):
+      - **Word:** [final_report/final_report.docx](final_report/final_report.docx), the same report
+        in IEEE conference style (two columns, Times New Roman, real Word equations). Put it in
+        OneDrive or Google Drive so all three of you edit the same copy, and export to PDF to submit.
+      - **LaTeX:** upload [final_report_overleaf.zip](final_report_overleaf.zip) to Overleaf (New
+        Project → Upload Project) and share the project. Overleaf works in the browser, lets all
+        three of you edit at once, and rebuilds the PDF for you.
 - [ ] Read the whole draft and revise it in your own words. It's submitted individually, so make
       sure you can explain every part of it.
 - [ ] Confirm the author block (all three names, as in the mid-report) is what the instructor
@@ -61,6 +66,7 @@ post-test.)
 | File | What it is |
 |---|---|
 | `report/final_report/final_report.tex` / `.pdf` | final report, IEEE two-column (IEEEtran) |
+| `report/final_report/final_report.docx` | the same report as an editable Word file in IEEE conference style |
 | `report/final_report_overleaf.zip` | the same source and figures, ready for Overleaf |
 | `report/presentation/GrievAIance_Final_Presentation.pptx` | draft slide deck (16 slides, speaker notes), editable PowerPoint |
 | `report/presentation/PRESENTATION_GUIDE.md` | slide plan, speaker notes, timing, design rules, Q&A bank |
