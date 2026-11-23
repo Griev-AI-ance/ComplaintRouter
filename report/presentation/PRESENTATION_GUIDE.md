@@ -5,11 +5,16 @@
 upload per team.
 
 This is the *content* for the deck: what goes on each slide, which figure to use, and what to
-say. **Build the slides yourselves** in PowerPoint or Google Slides. The instructor penalizes
-AI-generated slides, so don't use slide generators (Copilot/Designer, Gamma, Canva Magic Design,
-Google "Help me create"). Use a plain template and put the talking points below in your own
-words. All figures are already in [figures/](figures/); they are plots of our own results, from
-our notebooks and [make_slide_figures.py](make_slide_figures.py).
+say. **The team's working deck is [GrievAIance_Final_Presentation.pptx](GrievAIance_Final_Presentation.pptx)**:
+a 16-slide draft (12 main, 4 backup) that follows this plan, with these talking points as its
+speaker notes. It's a normal editable PowerPoint, built on a theme with layouts and sections, so
+fonts and colors change in one place. The instructor penalizes AI-generated slides, so rework it
+before Nov 30: reword the slides and notes in your own words, rearrange layouts the way you'd
+present them, and don't run it through slide generators (Copilot/Designer, Gamma, Canva Magic
+Design, Google "Help me create"). To edit it together, keep one shared copy in OneDrive
+(PowerPoint co-editing) or Google Drive (open with Google Slides) instead of emailing versions. All
+figures are in [figures/](figures/); they are plots of our own results, from our notebooks and
+[make_slide_figures.py](make_slide_figures.py).
 
 ## Grading checklist (from the announcement)
 
